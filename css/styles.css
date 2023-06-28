@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+/* ---------------- HEADER --------------- */
+
+.header-logo {
+    color: #2E2F42;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.header-logo-accent {
+    color: #4D5AE5;
+}
+
+.header-menu-link,
+.header-contact-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #4D5AE5;
+}
+
+/* ---------------- HERO --------------- */
+
+.hero {
+    background-color: #2E2F42;
+}
+.hero-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+.hero-btn {
+    color:  #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+}
+
+/* ---------------- ADVANTAGES --------------- */
+
+.advantages {
+}
+.advantages-list {
+}
+
+.advantages-item {
+}
+.advantages-subtitle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02;
+}
+.advantages-item-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+}
+
+
+
