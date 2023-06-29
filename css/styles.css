@@ -197,11 +197,42 @@ body {
 /* ---------------- BUTTON --------------- */
 
 .button-list {
-color: var(--primary-brand);
-font-size: 16px;
-font-family: inherit;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.04em;
+
 }
+
+.portfolio-button {
+    color: var(--primary-brand);
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--light);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--light);
+    background-color: var(--primary-brand);
+    cursor: pointer;
+}
+
+
+/* ---------------- PROJECT --------------- */
+
+.project-title {
+    color: var(--dark);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.project-text {
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 
