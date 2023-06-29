@@ -94,14 +94,6 @@ body {
 
 /* ---------------- ADVANTAGES --------------- */
 
-.advantages {
-}
-
-.advantages-list {
-}
-
-.advantages-item {
-}
 
 .advantages-subtitle {
     color: var(--text);
@@ -119,8 +111,7 @@ body {
 
 /* ---------------- SERVICES --------------- */
 
-.services {
-}
+
 .services-title {
     color:  var(--text);
     text-align: center;
@@ -130,19 +121,9 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.services-list {
-}
-.list {
-}
-.services-item {
-}
-.services-img {
-}
 
 /* ---------------- TEAM --------------- */
 
-.team {
-}
 .team-title {
     color: var(--text);
     text-align: center;
@@ -195,10 +176,6 @@ body {
 }
 
 /* ---------------- BUTTON --------------- */
-
-.button-list {
-
-}
 
 .portfolio-button {
     color: var(--primary-brand);
