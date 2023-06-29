@@ -133,6 +133,10 @@ body {
 
 /* ---------------- TEAM --------------- */
 
+.team {
+    background-color: var(--light);
+}
+
 .team-title {
     color: var(--dark);
     text-align: center;
@@ -146,11 +150,6 @@ body {
 .team-item {
     background-color: var(--white-background);
 }
-
-.team-name-container {
-    background-color: var(--light);
-}
-
 
 .team-name {
     color: var(--dark);
