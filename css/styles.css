@@ -14,20 +14,10 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--text);
+    background-color: var(--white-background);
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
 
 .link {
     text-decoration: none;
@@ -42,15 +32,15 @@ body {
 .header-logo {
     color: var(--primary-brand);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    line-height: 1.16;
-    letter-spacing: -0.03em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .header-logo span {
-    color: var(--text);
+    color: var(--dark);
 }
 
 .header-menu-link,
@@ -65,13 +55,17 @@ body {
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-    color: var(--primary-brand);
+    color: var(--pressedstate);
+}
+
+.header-adress {
+    font-style: normal;
 }
 
 /* ---------------- HERO --------------- */
 
 .hero {
-    background-color: var(--text);
+    background-color: var(--dark);
 }
 .hero-title {
     color: var(--white-background);
@@ -90,30 +84,35 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: var(--primary-brand);
+    cursor: pointer;
 }
 
 /* ---------------- ADVANTAGES --------------- */
 
 
+.advantages-item {
+
+}
+
 .advantages-subtitle {
-    color: var(--text);
+    color: var(--dark);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 .advantages-item-text {
     color: var(--text);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 /* ---------------- SERVICES --------------- */
 
 
 .services-title {
-    color:  var(--text);
+    color:  var(--dark);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -125,7 +124,7 @@ body {
 /* ---------------- TEAM --------------- */
 
 .team-title {
-    color: var(--text);
+    color: var(--dark);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -133,8 +132,13 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+.team-ul {
+    background-color: var(--white-background);
+}
+
+
 .team-name {
-    color: var(--text);
+    color: var(--dark);
     text-align: center;
     font-size: 20px;
     font-weight: 500;
@@ -152,15 +156,15 @@ body {
 /* ---------------- FOOTER --------------- */
 
 .footer {
-    background-color: var(--text);
+    background-color: var(--dark);
  }
 .footer-logo {
     color: var(--primary-brand);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    line-height: 1.16;
-    letter-spacing: -0.03em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
  }
 
@@ -178,7 +182,7 @@ body {
 /* ---------------- BUTTON --------------- */
 
 .portfolio-button {
-    color: var(--primary-brand);
+    color: var(--pressedstate);
     font-size: 16px;
     font-family: inherit;
     font-weight: 500;
@@ -189,8 +193,8 @@ body {
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-    color: var(--light);
-    background-color: var(--primary-brand);
+    color: var(--white-background);
+    background-color: var(--pressedstate);
     cursor: pointer;
 }
 
