@@ -133,8 +133,8 @@ body {
 
 /* ---------------- TEAM --------------- */
 
-.team-ul {
-    background-color: var(--light)
+.team {
+    background-color: var(--light);
 }
 
 .team-title {
@@ -147,7 +147,7 @@ body {
     text-transform: capitalize;
 }
 
-.team-ul {
+.team-item {
     background-color: var(--white-background);
 }
 
