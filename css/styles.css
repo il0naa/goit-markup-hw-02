@@ -45,7 +45,7 @@ body {
 
 .header-menu-link,
 .header-contact-link {
-    color: var(--text);
+    color: var(--dark);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -87,6 +87,11 @@ body {
     cursor: pointer;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--pressedstate)
+}
+
 /* ---------------- ADVANTAGES --------------- */
 
 
@@ -123,6 +128,10 @@ body {
 
 /* ---------------- TEAM --------------- */
 
+.team {
+    background-color: var(--light)
+}
+
 .team-title {
     color: var(--dark);
     text-align: center;
@@ -132,6 +141,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+
 .team-ul {
     background-color: var(--white-background);
 }
@@ -182,7 +192,7 @@ body {
 /* ---------------- BUTTON --------------- */
 
 .portfolio-button {
-    color: var(--pressedstate);
+    color: var(--primary-brand);
     font-size: 16px;
     font-family: inherit;
     font-weight: 500;
@@ -201,6 +211,7 @@ body {
 
 /* ---------------- PROJECT --------------- */
 
+
 .project-title {
     color: var(--dark);
     font-size: 20px;
@@ -210,7 +221,7 @@ body {
 }
 
 .project-text {
-    color: var(--text);
+    color: var(--dark);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
