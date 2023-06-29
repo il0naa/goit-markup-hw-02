@@ -62,6 +62,15 @@ body {
     font-style: normal;
 }
 
+.header-contact-link {
+    color: var(--text)
+}
+
+.header-contact-link:hover,
+.header-contact-link:focus {
+    color: var(--pressedstate)
+}
+
 /* ---------------- HERO --------------- */
 
 .hero {
@@ -124,7 +133,7 @@ body {
 
 /* ---------------- TEAM --------------- */
 
-.team {
+.team-ul {
     background-color: var(--light)
 }
 
@@ -217,7 +226,7 @@ body {
 }
 
 .project-text {
-    color: var(--dark);
+    color: var(--text);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
