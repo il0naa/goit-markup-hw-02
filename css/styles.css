@@ -43,14 +43,12 @@ body {
     color: var(--dark);
 }
 
-.header-menu-link,
-.header-contact-link {
+.header-menu-link {
     color: var(--dark);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
 }
 
 .header-menu-link:hover,
@@ -63,7 +61,11 @@ body {
 }
 
 .header-contact-link {
-    color: var(--text)
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .header-contact-link:hover,
